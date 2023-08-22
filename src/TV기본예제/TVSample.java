@@ -6,7 +6,7 @@ public class TVSample {
         //tv.getInfoTV();
 
 
-        TV gTV = new TV(false, 20, 20);
+        TV gTV = new TV(false, 20, 20);     // 이렇게 괄호안에 값을 직접적으로 넣으면, 값이 두번 뜨게 됨.
         //gTV.getInfoTV();
         gTV.setOn(true);
         gTV.setChannel(59);
