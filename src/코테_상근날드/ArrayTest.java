@@ -1,4 +1,4 @@
-package 상근날드;
+package 코테_상근날드;
 
 import java.util.Arrays;
 
