@@ -5,7 +5,7 @@ public class Common {
     final static String[] colorType = {"", "스페이스그레이", "실버"};
     final static String[] memType = {"", "128GB", "256GB", "512GB"};
     final static String[] netType = {"", "Wi-Fi", "Wi-Fi+Cellular"};
-    final static String PRODUCT = "iPad Pro";
+    final static String PRODUCT = "iPad Prodfdfdfd";
 
 
 }
