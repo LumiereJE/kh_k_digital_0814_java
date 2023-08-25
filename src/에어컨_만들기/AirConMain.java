@@ -18,7 +18,7 @@ public class AirConMain {
             lgAirCon.setPower(true);        // 에어컨 켜기
             lgAirCon.setAirConState();      // 온도 설정
             while(true) {
-                sleep(1000);                // 1초마다 한번씩 돌리게.
+                sleep(1000);                 // 1초마다 한번씩 돌리게.
                 elapsedTime++;                    // 1초마다 1씩 증가.
                 switch (lgAirCon.getWindStep()) {
                     case 1 : if(elapsedTime >= 60) isSetTemp = true; break; // 바람세기 1단

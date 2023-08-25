@@ -10,7 +10,7 @@ public interface RemoteControl {
     void setVolume(int vol);
 
     // 디폴트 메서드는 JDK8 이후에 추가 됨.
-    default void setMute(boolean mute) {        // 오버라이딩이 필수가 아닌 선택사항이 됨.
+    default void setMute(boolean mute) {         // 오버라이딩이 필수가 아닌 선택사항이 됨.
         if(mute) System.out.println("무음 처리 합니다.");
         else System.out.println("무음 해제 합니다.");
     }
