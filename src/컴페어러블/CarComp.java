@@ -23,6 +23,7 @@ public class CarComp implements Comparable<CarComp> {
         else {
             if (this.modelYear == o.modelYear) {
                 return this.color.compareTo(o.color);      // 사전 순 정렬
+//                return 0; 윗 조건없이 리턴0만 해버리면 중복된 애들이 삭제됨.
             }
         }
         return -1;
