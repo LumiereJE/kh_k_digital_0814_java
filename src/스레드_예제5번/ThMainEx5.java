@@ -25,10 +25,9 @@ class AutoSaveTh extends Thread {
         while (true) {
             try {
                 Thread.sleep(3000);
-            } catch (InterruptedException e){
-                break;
-            }
+            } catch (InterruptedException e){}
+            save();
         }
-        save();
+
     }
 }
